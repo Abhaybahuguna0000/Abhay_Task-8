@@ -1,10 +1,10 @@
-# 🍔 Responsive Laundry Services - CSS Only Hamburger Menu
+# 🍔 Responsive Laundry Services - CSS `:focus` Hamburger Menu
 
 ## 📌 Project Overview
 
-This project is a responsive **Laundry Services Landing Page** built using **HTML5** and **CSS3**. The main objective of this assignment was to create a **CSS-only Hamburger Menu** for mobile devices without using JavaScript.
+This project is a responsive **Laundry Services Landing Page** built using **HTML5** and **CSS3**. The main objective of this assignment was to implement a **CSS-only Hamburger Menu** for mobile devices using the **`:focus` pseudo-class** without JavaScript.
 
-The navigation menu is hidden on mobile screens and can be toggled using the **CSS Checkbox Hack**, providing a clean and responsive user experience.
+The project demonstrates responsive web design using **Flexbox**, **Media Queries**, and the **CSS `:focus` pseudo-class** to create an interactive mobile navigation menu.
 
 ---
 
@@ -14,9 +14,10 @@ The navigation menu is hidden on mobile screens and can be toggled using the **C
 - CSS Only Hamburger Menu
 - Mobile-Friendly Navigation
 - Responsive Hero Section
+- CSS `:focus` Pseudo-class
 - Flexbox Layout
 - CSS Media Queries
-- Smooth Slide-in Menu Animation
+- Smooth Menu Slide Animation
 - No JavaScript Used
 
 ---
@@ -27,7 +28,7 @@ The navigation menu is hidden on mobile screens and can be toggled using the **C
 - CSS3
 - Flexbox
 - CSS Media Queries
-- CSS Checkbox Hack (`:checked`)
+- CSS `:focus` Pseudo-class
 - CSS Transitions
 
 ---
@@ -57,13 +58,13 @@ Laundry-Services-Hamburger/
 ## ✅ Features Implemented
 
 - Responsive Navigation Bar
-- Hamburger Menu visible only on mobile devices
-- Navigation links hidden by default on mobile
-- CSS Checkbox Hack used to toggle the menu
-- Menu slides in smoothly from the right side
+- Mobile Hamburger Menu using a `<button>` element
+- CSS `:focus` pseudo-class for menu interaction
+- Navigation links hidden on mobile devices by default
 - Responsive Hero Section
 - Flexbox-based Layout
-- No JavaScript implementation
+- Smooth Menu Transition
+- No JavaScript Implementation
 
 ---
 
@@ -79,7 +80,7 @@ Laundry-Services-Hamburger/
 
 - Desktop View
 - Tablet View
-- Mobile View with Hamburger Menu
+- Mobile View with CSS `:focus` Hamburger Menu
 
 ---
 
