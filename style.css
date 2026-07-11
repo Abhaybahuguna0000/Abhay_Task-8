@@ -7,9 +7,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-.menu-button{
+#menu-toggle{
     display: none;
 
+}
+.menu-button{
+    display:none;
 }
 nav{
     height: 10vh;
@@ -81,7 +84,11 @@ main{
     background-color: var(--primary-color);
     color: white;
     font-family: var(--font-family);
-     cursor:pointer;
+    cursor:pointer;
+    transition: 0.7s ease;
+}
+.left button:hover{
+    transform: rotate(-10deg) scale(1.1);
 }
 .right{
     width: 45vw;
@@ -177,6 +184,12 @@ main{
     }
 }
 @media(min-width:375px) and (max-width:747px){
+    nav .username button:focus{
+        background-color:var(--primary-color);
+        color: #e5f6ff;
+    }
+}
+@media(min-width:375px) and (max-width:747px){
    .left{
        width: 100vw;
        height: 50vh;
@@ -198,7 +211,7 @@ main{
     width: 45vw;
     height: 7vh;
     font-size: 12px;
-     cursor:pointer;
+    cursor:pointer;
     }
 }
 @media(min-width:375px) and (max-width:747px){
@@ -226,29 +239,27 @@ main{
     .menu-button{
     display:block;
     position:relative;
-
     background:none;
     border:none;
-
     font-size:25px;
     color:#626161;
-
     cursor:pointer;
     }
     }
 @media(min-width:375px) and (max-width:747px){
     .mobile-menu{
-    display:none;
-    position:absolute;
-    top:55px;
-    right:0;
-    width:180px;
-    height:100vh;
+    position:fixed;
+    top:10vh;
+    right:-220px;
+    width:150px;
+    height:50vh;
     background:#e5f6ff;
+    display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     gap:25px;
+    transition:0.4s ease;
     }
     }
 @media(min-width:375px) and (max-width:747px){
@@ -258,14 +269,7 @@ main{
     font-size:18px;
     }
 }
-@media(min-width:375px) and (max-width:747px){
-    .menu-button:focus .mobile-menu{
-    display:flex;
-}
-}
-@media(min-width:375px) and (max-width:747px){
-    .menu-button:focus{
-    outline:none;
-}
+#menu-toggle:checked + .menu-button .mobile-menu{
+    right: 0;
 }
 
