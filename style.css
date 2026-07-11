@@ -7,10 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-#menu-toggle{
-    display: none;
 
-}
 .menu-button{
     display:none;
 }
@@ -237,7 +234,7 @@ main{
 }
 @media(min-width:375px) and (max-width:747px){
     .menu-button{
-    display:block;
+      display:block;
     position:relative;
     background:none;
     border:none;
@@ -249,9 +246,9 @@ main{
 @media(min-width:375px) and (max-width:747px){
     .mobile-menu{
     position:fixed;
-    top:10vh;
+    top:100px;
     right:-220px;
-    width:150px;
+    width:220px;
     height:50vh;
     background:#e5f6ff;
     display:flex;
@@ -259,7 +256,7 @@ main{
     justify-content:center;
     align-items:center;
     gap:25px;
-    transition:0.4s ease;
+    transition:right .4s ease;
     }
     }
 @media(min-width:375px) and (max-width:747px){
@@ -269,7 +266,9 @@ main{
     font-size:18px;
     }
 }
-#menu-toggle:checked + .menu-button .mobile-menu{
-    right: 0;
+.menu-button:focus .mobile-menu{
+    right:0;
 }
-
+.menu-button:focus{
+    outline:none;
+}
