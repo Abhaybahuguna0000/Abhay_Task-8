@@ -1,21 +1,22 @@
-# 🍔 Responsive Laundry Services - Hamburger Menu
+# 🍔 Responsive Laundry Services - CSS Only Hamburger Menu
 
 ## 📌 Project Overview
 
-This project is an extension of the Responsive Laundry Services landing page. The objective was to implement a **Hamburger Menu** for mobile devices using **HTML5** and **CSS3** only, without using JavaScript.
+This project is a responsive **Laundry Services Landing Page** built using **HTML5** and **CSS3**. The main objective of this assignment was to create a **CSS-only Hamburger Menu** for mobile devices without using JavaScript.
 
-The navigation menu remains hidden on mobile screens and appears when the user clicks the hamburger icon using the CSS `:focus` pseudo-class.
+The navigation menu is hidden on mobile screens and can be toggled using the **CSS Checkbox Hack**, providing a clean and responsive user experience.
 
 ---
 
 ## 🚀 Features
 
 - Responsive Navigation Bar
-- CSS-only Hamburger Menu
-- Mobile-friendly Navigation
+- CSS Only Hamburger Menu
+- Mobile-Friendly Navigation
 - Responsive Hero Section
 - Flexbox Layout
 - CSS Media Queries
+- Smooth Slide-in Menu Animation
 - No JavaScript Used
 
 ---
@@ -26,7 +27,8 @@ The navigation menu remains hidden on mobile screens and appears when the user c
 - CSS3
 - Flexbox
 - CSS Media Queries
-- CSS `:focus` Pseudo-class
+- CSS Checkbox Hack (`:checked`)
+- CSS Transitions
 
 ---
 
@@ -52,23 +54,32 @@ Laundry-Services-Hamburger/
 
 ---
 
-## ✅ Task Requirements Completed
+## ✅ Features Implemented
 
-- Responsive Navbar
+- Responsive Navigation Bar
 - Hamburger Menu visible only on mobile devices
-- Navigation links hidden on mobile by default
-- CSS `:focus` pseudo-class used to display the menu
-- Menu opens from the right side of the screen
+- Navigation links hidden by default on mobile
+- CSS Checkbox Hack used to toggle the menu
+- Menu slides in smoothly from the right side
 - Responsive Hero Section
-- Implemented without JavaScript
+- Flexbox-based Layout
+- No JavaScript implementation
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone or download the repository.
+1. Clone or download this repository.
 2. Open the project folder.
 3. Open `index.html` in your preferred web browser.
+
+---
+
+## 📸 Preview
+
+- Desktop View
+- Tablet View
+- Mobile View with Hamburger Menu
 
 ---
 
@@ -82,8 +93,8 @@ GitHub: https://github.com/Abhaybahuguna0000
 
 ## 📄 License
 
-This project was created for learning and educational purposes as part of a Frontend Development assignment.
+This project was developed for learning and educational purposes as part of a Frontend Development assignment.
 
 ---
 
-⭐ Thank you for checking out this project!
+⭐ Thank you for visiting this project! Feedback and suggestions are always welcome.
